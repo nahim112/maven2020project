@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Automation Suite Test Suite]">
+  <listeners>
+    <listener class-name="com.qa.extentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Test Automation Suite Test Cases(failed)">
+    <classes>
+      <class name="com.ap.qa.testcases.ContactusTest">
+        <methods>
+          <include name="testContact"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.ap.qa.testcases.ContactusTest -->
+    </classes>
+  </test> <!-- Test Automation Suite Test Cases(failed) -->
+</suite> <!-- Failed suite [Test Automation Suite Test Suite] -->
